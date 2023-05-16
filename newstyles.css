@@ -1,0 +1,150 @@
+/* added to get rid of default margin/padding on webpage */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+    font-family: Rubik;
+}
+
+/* main box that i want all content to fit inside of */
+
+div#content-box {
+    min-width: 828px;
+    max-width: 828px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+/* left content box */
+
+div#left-box {
+    min-width: 400px;
+    max-width: 400px;
+    display: block;
+    float: left;
+
+}
+
+/* right content box */
+
+div#right-box {
+    min-width: 400px;
+    max-width: 400px;
+    display: block;
+    float: right;
+    top: 0;
+
+}
+
+/* styling the header & background color*/
+
+html {
+    background-color: #fae5ec;
+}
+
+header img {
+    min-width: 828px;
+    height: 259px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header h1 {
+    display: block;
+    background-color: aliceblue;
+    min-width: 828px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 30px;
+    font-family: Rubik;
+    letter-spacing: 4px;
+}
+
+/* h2 header */
+
+h2 {
+    background-color: aliceblue;
+    letter-spacing: 4px;
+    padding-left: 1%;
+    font-size: large;
+    padding-bottom: 4px;
+    margin-bottom: 6px;
+}
+
+/* link colors*/
+
+a:link {
+    color: skyblue;
+}
+
+a:visited {
+    color: skyblue;
+}
+
+/* resizing kuromi png */
+
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+.resize {
+    width: 300px;
+    height: auto;
+}
+
+
+
+/* individual content boxes LEFT SIDE */
+
+div#intro {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#references {
+    padding-bottom: 20px;
+}
+
+div#semantic-html {
+    padding-bottom: 20px;
+}
+
+div#kuromi-png {
+    margin: -40px auto 10px auto;
+    width: 75%;
+
+}
+
+/* individual content boxes RIGHT SIDE */
+
+div#navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#intro-html {
+    padding-bottom: 20px;
+}
+
+div#intro-css {
+    padding-bottom: 20px;
+}
+
+p#box-title {
+    text-align: center;
+}
+
+div#css-color {
+    margin-bottom: 50px;
+}

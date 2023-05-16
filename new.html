@@ -1,0 +1,100 @@
+<!--This document is a cheatsheet/notes page for intro to html & css-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Harmony's HTML & CSS Cheatsheet</title>
+        <link href="./newstyles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="content-box">
+            <header>
+                <img id="header-img" src="./images/header.jpg" alt="header" class="center">
+                <h1>✩⋆Harmony's HTML & CSS Cheatsheet⋆✩</h1>
+            </header>
+        <div id="left-box" class="column">
+            <div id="intro">
+                <h2> ♡ welcome ♡ </h2>
+                <p>hiii!! ૮₍ ´• ˕ •` ₎ა I'm making this cheatsheet for anyone who wants a convenient place to remember 
+            basic HTML & CSS rules! I hope this helps you in some way (˶ᵔ ̫ ᵔ˶) ♡</p>
+            </div>
+            <div id="references">
+                <h2> ♡ references ♡ </h2>
+                    <p>Some references I used were <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a> courses and 
+                    <a href="https://a.co/d/4OND3js" target="_blank">HTML & CSS</a> by Jon Duckett!</p>
+                    <p>I highly recommend Codecademy as a great place to start learning any coding, whatever your goal is.
+                they offer tons of courses, either to learn a specific coding languages or more of a general path (like full
+                stack! the one i'm currently taking!).</p>
+            </div>
+            <div id="semantic-html">
+                <h2> ♡ semantic html ♡ </h2>
+                <p>Semantic: relating to meaning</p><br>
+                <p>Semantic html is good to use so that you & others can understand your code when going over it! Some common uses are:</p><br>
+                <p>✦ &#60;nav&#62 : defines blocks of navigation links</p><br>
+                <p>✦ &#60;main&#62 : has dominant content on webpage</p><br>
+                <p>✦ &#60;footer&#62 : contains info like contact info, copyright, site map, and more!</p><br>
+            </div>
+            <div id="kuromi-png">
+                <img class="resize" src="./images/kuromi.png" alt="kuromi">
+            </div>
+            <div id="css-typo">
+                <h2> ♡ css styling: typography ♡ </h2>
+                <p>Here are some important font selectors to change the look of the fonts you use:</p><br>
+                <p>✦ <strong>font-weight:</strong> adjusts how bold or thin your font will be</p><br>
+                <p>✦ <strong>text-transform:</strong> turns all letters uppercase or lowercase</p><br>
+                <p>✦ <strong>letter-spacing:</strong> sets horizontal spacing between letters</p><br>
+                <p>✦ <strong>text-align:</strong> aligns text to the right, left, or center</p><br>
+                <p>✦ <strong>word-spacing:</strong> sets horizontal spacing between words</p><br>
+                <p>✦ <strong>line-height:</strong> adjusts how tall each line is</p><br>
+                <p>You can use fonts outside of the default web browser fonts by copying the link from <a href="https://fonts.google.com" target="_blank">Google Fonts</a>
+                or by downloading fonts and hosting their files in your work folder.</p>
+            </div>
+        </div> <!--left content box closing-->
+        <div id="right-box" class="column">
+            <div id="navigation">
+                <h2> ♡ main hub ♡ </h2>
+                <a href="#references">✧ references</a><br>
+                <a href="#intro-html">✧ intro to html</a><br>
+                <a href="#semantic-html">✧ semantic html</a><br>
+                <a href="#intro-css">✧ intro to css</a><br>
+                <a href="#box-model">✧ box model</a><br>
+                <a href="#css-color">✧ css styling: color</a><br>
+                <a href="#css-typo">✧ css styling: typography</a><br>
+            </div>
+            <div id="intro-html">
+                <h2> ♡ intro to html ♡ </h2>
+                <p>In order to properly set-up an html file in your IDE (i use Visual Studio Code)...</p><br>
+                <p>✦ make a new html file</p><br>
+                <p>✦ enter &#60;!DOCTYPE html&#62 as your first line of code</p><br>
+                <p>✦ write the rest of your html code! ^-^</p><br>
+                <p>✦ Refer to <a href="https://www.w3schools.com/tags/ref_byfunc.asp" target="_blank">this</a> page for basic & common html code if you forget!</p>
+            </div>
+            <div id="intro-css">
+                <h2> ♡ intro to css ♡ </h2>
+                <p>After making a .css file in your IDE, you can link it to your html by adding it to the same work folder, then adding this code
+                    to your html file:</p><br>
+                <p>&#60;link href="./styles.css" rel="stylesheet"&#62</p>
+                <p>You can begin adding your CSS code in your respective .css file. <a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank">Here</a>
+                 is a list of common css selectors you may find yourself using. Rememeber that certain CSS styles hold specifity or importance over
+                others! Style using the lowest degree of specifity to the highest. ID's are most specific, then classes, then type.</p>
+            </div>
+            <div id="box-model">
+                <h2> ♡ box model ♡ </h2>
+                <p>The CSS box model are a set of properties that define parts of your element. There is the wdith & height of your element, the padding
+                    (space between content and the border), the border (surrounds content area & padding), and the margin (space between border and 
+                    edge of content).</p><br>
+                <p id="box-title"><strong>Box Model Example:</strong></p>
+                <img src="./images/boxmodel.png">
+            </div>
+            <div id="css-color">
+                <h2> ♡ css styling: color ♡ </h2>
+                <p>To input a foreground color into an element (like text color), use the <strong>color:</strong> selector. If you want to change the background 
+                    color, use the <strong>background-color:</strong> selector. CSS supports 3 color inputs: color names, RGB values, and 
+                    HSL values. Inputing only color names limits you to the 145 colors in CSS, so using RGB or HEX codes as your value is a better option. HSL is 
+                    convenient for changing the hue, saturation, and lightness to your colors. It can also change the opacity by using hsla(). For changing opacity 
+                    using RGB, you can use rgba(). Using <strong>color: transparent</strong> will make your element completely clear.</p>
+            </div>
+        </div> <!--right content box closing-->
+        </div> <!--main content box closing-->   
+    </body>
+</html>
